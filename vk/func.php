@@ -2,8 +2,8 @@
 //Отпрака сообщений администратору бота
 function send($mess){
 
-    $token = '1621111111:AAHLmA49eRgZiULTnG4DmzVhtsN1xX11111';
-    $chat_id = '1648111111';
+    $token = '1995664052:AAFDUAnW81kBTtjtsvJbBoSziK7sX5DFl58';
+    $chat_id = '1546111796';
     $url = "https://api.telegram.org/bot".$token."/sendMessage?chat_id=".$chat_id."&text=".urlencode($mess)."&parse_mode=html&disable_web_page_preview=true";
     file_get_contents($url);
 }
